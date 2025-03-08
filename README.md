@@ -11,7 +11,7 @@
 
 Shoud look something like this after Install: 
 
----
+```
 Vault/
 └── Pictures/
 └── Templates/
@@ -19,7 +19,8 @@ Vault/
     ├── uni.latex
     ├── latex-frontmatter
 
----
+```
+
 
 # 1) Download & Install
 
