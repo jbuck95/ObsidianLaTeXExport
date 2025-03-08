@@ -1,6 +1,6 @@
-# Info
+# Writing Assignments in Obsidian.md
 
-This guide shows you how to achieve consistent LaTeX exports with YAML front matter in Obsidian.md using Pandoc, TeX Live, and the Enhanced Export Plugin. The installation also includes the Eisvogel templates and a custom `.latex` template for university assignments. Additionally, it covers how to convert `.docx` to `.md`.
+This guide shows you how to achieve consistent LaTeX exports with YAML front matter in Obsidian.md using Pandoc, TeX Live, and the Enhanced Export Plugin. The installation also includes setting up the Eisvogel templates and a custom `.latex` template for university assignments. Additionally, it covers how to convert `.docx` to `.md`.
 
 ## Covers
 

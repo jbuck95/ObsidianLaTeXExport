@@ -40,7 +40,7 @@ Vault/
 
 >   https://github.com/Wandmalfarbe/pandoc-latex-template/releases/tag/v3.1.0
 
--> Unzip and copy folder in your obsidian Template folder. 
+-> Unzip and copy folder into your obsidian Template folder. 
 
 ## Templates
 
@@ -48,7 +48,7 @@ Vault/
 
 ![](Pasted%20image%2020250308173834.png)
 
-(optional: copy uni.latex contents to a note and paste in a latex code-block for syntax-highlighting)
+(optional: copy uni.latex contents to a note and paste it inside a latex code-block for better syntax-highlighting)
 
 ### Setting up the Latex-Template 
 
@@ -90,6 +90,7 @@ Vault/
 
 # 3) Extra: Convert your .docx to .md
 
+Assuming you want to import .docx into your Vault,
 - including footnotes etc. 
 
 **In the Directory of your .docx, open Terminal and run:**
