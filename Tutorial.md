@@ -48,6 +48,8 @@ Vault/
 
 ![](Pasted%20image%2020250308173834.png)
 
+(optional: copy uni.latex contents to a note and paste in a latex code-block for syntax-highlighting)
+
 ### Setting up the Latex-Template 
 
 
@@ -56,7 +58,8 @@ Vault/
 	1) Language
 	2) Image path
 	3) Picture University
-	4) & 5) Signatures
+	4) Signatur 1 (can be deleted if you dont need legal note, which is btw in german!)
+  5) Signatur 2 (see 4)
 
 
 # 2) Enhancing-Export 

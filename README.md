@@ -4,8 +4,8 @@ This guide shows you how to achieve consistent LaTeX exports with YAML front mat
 
 ## Covers
 
-1. **Install**
-2. **Setup**
+1. **Install**  Just download the release and extract it. Move the whole Folder into your Vault. Read Tutorial.md for instructions.
+2. **Setup*
    - Pandoc
    - TeX Live
    - Eisvogel
