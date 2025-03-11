@@ -20,35 +20,40 @@ Vault/
     ├── uni.latex
     ├── Frontmatter-Template.md
 ```
+
 ---
 
 
 # 1) Download & Install
 
-## Pandoc
+## 1. Font: libertinus-otf
+
+I use libertinus-otf which allows you to use math, old greek etc. and other symbols. Aswell (and Serif + Ligatures)
+
+## 2. Pandoc
 
 >   https://pandoc.org/installing.html
 
-![](Pasted%20image%2020250308170136.png)
-## TeX Live
+## 3. TeX Live
 
 >   https://tug.org/texlive/windows.html#install
 
 - Install. 
 
-## Eisvogel
+## 4. Eisvogel
 
 >   https://github.com/Wandmalfarbe/pandoc-latex-template/releases/tag/v3.1.0
 
--> Unzip and copy folder into your obsidian Template folder. 
+-> Unzip and copy folder in your obsidian Template folder. 
 
-## Templates
+## 5. Templates
 
 1) **Install UNITADE - Plugin to view and edit .latex in Obsidian:** 
 
-![](Pasted%20image%2020250308173834.png)
+->  should look like `txt > latex` in the settings. 
 
-(optional: copy uni.latex contents to a note and paste it inside a latex code-block for better syntax-highlighting)
+**Download my Template:** 
+
 
 ### Setting up the Latex-Template 
 
@@ -58,21 +63,16 @@ Vault/
 	1) Language
 	2) Image path
 	3) Picture University
-	4) Signatur 1 (can be deleted if you dont need legal note, which is btw in german!)
-  5) Signatur 2 (see 4)
+	4) & 5) Signatures
 
 
-# 2) Enhancing-Export 
+# 2) Enhancing-Export Setup
 
-#####  Settings (Export-Setting)
-1) Set "Default Folder for Exported File"
-
-![](Pasted%20image%2020250308173940.png)
-
+1) **Set "Default Folder for Exported File"**
 
 2) **Set Arguments**
 ```
--f ${fromFormat} --resource-path="${currentDir}" --resource-path="${attachmentFolderPath}" --resource-path="PATH/TO/PICTURE/FOLDER/" --resource-path="${pluginDir}/textemplate" --template="PATH\TO\TEMPLATE.latex" --pdf-engine=xelatex --listings -o "${outputPath}" -t pdf
+-f ${fromFormat} --resource-path="${currentDir}" --resource-path="${attachmentFolderPath}" --resource-path="PATH/TO/PICTURE/FOLDER/" --resource-path="${pluginDir}/textemplate" --template="PATH\TO\TEMPLATE.latex" --pdf-engine=lualatex --listings -o "${outputPath}" -t pdf
 ```
 
 - **Set your Paths:** 
@@ -80,24 +80,13 @@ Vault/
 	1) *(Folder-)Path* to your Resources or Picture Folder in Obsidian 
 	2) *(File-)Path* to your .latex Template 
 
-3) **Set Extra-Arguments**
-
-```
---pdf-engine=xelatex
-```
-
 
 
 # 3) Extra: Convert your .docx to .md
 
-Assuming you want to import .docx into your Vault,
-- including footnotes etc. 
+Check my Plugin *Docx-To-Md-Converter* (working Footnotes for latex conversion but still in Beta):
 
-**In the Directory of your .docx, open Terminal and run:**
-```powershell
-pandoc INPUT.docx -o OUTPUT.md --wrap=none --markdown-headings=atx --reference-links --strip-comments --extract-media=./media
-
-```
+	https://github.com/jbuck95/DTM
 
 
 
