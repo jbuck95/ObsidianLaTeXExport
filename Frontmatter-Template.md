@@ -1,5 +1,5 @@
 ---
-title: Titel 
+title: Titel
 subtitle: Subtitle, if needed
 shorttitle: Paper
 name: Name
@@ -7,25 +7,28 @@ surname: Surname
 semester: Semester
 seminar: Titel Seminars
 professor: Prof. Dr. XYZ
-address: Behind-the-Moon-Str. 20, Germany
+address: Behind-the-Moon-Str. 20, Bahamas
 email: XYZ@googlemail.com
 matrikel: "0190"
 studiengang: Field of Study
-modul: XY
-pruefungsnr: XY
-abgabedatum: 30. März 2022
+modul: XY can delete
+pruefungsnr: XY can delete
 toc: "true"
+date: 
+university: 
+institute:
 ---
+
 
 
 
 
 \pagebreak 
 
-# Bibliographie
+# Bibliography
 
-You can also delete this section, and 
 
+> -> Bibliography here!
 
 
 \pagebreak

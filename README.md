@@ -3,6 +3,6 @@
 ## Check this for installation: 
 
 
-https://jbuck95.github.io/OniPublic/
+https://jbuck95.github.io/Uni/
 
 
